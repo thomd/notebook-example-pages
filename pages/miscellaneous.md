@@ -17,7 +17,7 @@ TODO something to do later
 
 ## Dividers
 
-### Divider is Empty
+a divider is not rendered as line, but as additional whitespace
 
 ```
 text

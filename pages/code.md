@@ -30,24 +30,15 @@ use either
 - four backticks ` ```` ` (if the code block should contain three back ticks) or
 - 4 spaces indentation.
 
-### Markdown
-
-````
-≈```≈
-some block code
-some ≈block≈ code
-some `block` code
-≈```≈
-````
-
-### Output
-
 ```
 some block code
-some ≈block≈ code
-some `block` code
+some block code with ≈highlighting≈
+some block code with ≈highlighting≈
+some block `code`
+some block code with      # a comment
+some block code with      # a ≈hightlighted≈ comment
+some block code with      # a comment containing `code`
 ```
-
 ## ASCII Block Code
 
 code blocks annotated by `ascii` use a different font and reduced line height
@@ -57,20 +48,19 @@ code blocks annotated by `ascii` use a different font and reduced line height
 ````
 ```≈ascii≈
 
-    +----------------+   Send    +-------+   Subscribe    +---------------------+
-    |  Event Source  |---------->|  ESP  |<---------------|  Event Destination  |
+    +----------------+   Send    +-------+   ≈≈≈Subscribe≈≈≈    +---------------------+
+    |  Event Source  |---------->|  ESP  |<---------------|  ≈`≈Event Destination≈`≈  |
     |                |           |       |--------------->|                     |
     +----------------+           +-------+   Consume      +---------------------+
 
 ```
 ````
-
 ### Output
 
 ```ascii
 
-    +----------------+   Send    +-------+   Subscribe    +---------------------+
-    |  Event Source  |---------->|  ESP  |<---------------|  Event Destination  |
+    +----------------+   Send    +-------+   ≈Subscribe≈    +---------------------+
+    |  Event Source  |---------->|  ESP  |<---------------|  `Event Destination`  |
     |                |           |       |--------------->|                     |
     +----------------+           +-------+   Consume      +---------------------+
 
