@@ -8,7 +8,7 @@ title: Code
 ## Inline Code
 
 ```
-This is some ≈`≈inline code≈`≈.
+This is some `inline code`.
 ```
 
 This is some `inline code`.
@@ -16,7 +16,7 @@ This is some `inline code`.
 <br>
 
 ```
-This is some ≈``≈inline code with `backticks` ≈``≈
+This is some ``inline code with `backticks` ``
 ```
 
 This is some ``inline code with `backticks` ``

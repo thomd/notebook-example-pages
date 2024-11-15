@@ -22,7 +22,7 @@ a divider is not rendered as line, but as additional whitespace
 ```
 text
 
-≈---≈
+---
 
 text
 

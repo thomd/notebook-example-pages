@@ -10,14 +10,15 @@ Each headline section is **editable** individually using a `[ Edit ]` link right
 Editing respects the heading hierarchy.
 
 ```
-≈#≈ h1 Headline
+# h1 Headline
 
-≈##≈ h2 Headline
+## h2 Headline
 
-≈###≈ h3 Headline
+### h3 Headline
 
-≈####≈ h4 Headline
+#### h4 Headline
 ```
+
 # h1 Headline
 
 text

@@ -10,7 +10,7 @@ title: Tables
 ```
 | A   | B      | C    |
 | --- | ------ | ---- |
-| a   | b≈<br>≈b | c≈\|≈c |
+| a   | b<br>b | c\|c |
 ```
 
 | A   | B      | C    |
@@ -33,7 +33,7 @@ title: Tables
 
 ```
 | Headline | Headline      |    Headline   |       Headline |
-| ---      | ≈:≈---          |     ≈:≈---≈:≈     |           ---≈:≈ |
+| ---      | :---          |     :---:     |           ---: |
 | normal   | left-aligned  |    centered   |  right-aligned |
 | 1        | 2             |       3       |              4 |
 ```

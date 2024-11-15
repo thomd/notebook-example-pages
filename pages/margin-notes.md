@@ -45,7 +45,7 @@ tempus. Donec scelerisque massa sit amet faucibus pharetra. Mauris dignissim nec
 If margin note overlaps content, adjust height of margin note by adding a number from 1 to 5 like this
 
 ```
-:::aside≈:2≈
+:::aside:2
 
 Some Margin Note
 

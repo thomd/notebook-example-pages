@@ -12,17 +12,17 @@ Does only apply in paragraphs, lists and tables.
 ### Markdown
 
 ```
-Press ≈[≈CTRL C≈]≈ to copy
+Press [CTRL C] to copy
 
-- Press ≈[≈CTRL C≈]≈ to copy
-- Press ≈[≈CTRL V≈]≈ to paste
+- Press [CTRL C] to copy
+- Press [CTRL V] to paste
 
 Keyboard input is not highlighted within `inline [code]`.
 
 | Keyboard Input | Action  |
 | -------------- | ------- |
-| ≈[≈CTRL C≈]≈       | copy    |
-| ≈[≈CTRL V≈]≈       | paste   |
+| [CTRL C]       | copy    |
+| [CTRL V]       | paste   |
 ```
 
 ### Output

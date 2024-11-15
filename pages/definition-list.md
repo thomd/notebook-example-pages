@@ -8,7 +8,7 @@ title: Definition List
 ```
 Term
 
-≈:≈ Definition
+: Definition
 
 Another Term
 
